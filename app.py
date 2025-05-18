@@ -136,10 +136,10 @@ def create_gradio_interface():
     )
     
     # Create the interface
-    with gr.Blocks(theme=theme, title="Whispr.ai") as app:
+    with gr.Blocks(theme=theme, title="Speech-to-Text Converter") as app:
         gr.Markdown(
             """
-            # 🎙️ Whispr.ai
+            # 🎙️ Speech-to-Text Converter
             
             Convert speech to text using Whisper AI model. Supports English and Hindi languages.
             
@@ -224,6 +224,6 @@ if __name__ == "__main__":
     # Final verification that FFmpeg is available
     check_ffmpeg()
     
-    print("Launching the Whispr.ai application...")
+    print("Launching the Whisper Speech-to-Text application...")
     app = create_gradio_interface()
     app.launch()
