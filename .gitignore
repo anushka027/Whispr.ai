@@ -1,0 +1,51 @@
+# Ignore Python cache files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Ignore virtual environment
+venv/
+env/
+.env/
+
+# Ignore model files (if stored locally)
+models/
+*.pt
+*.pth
+*.bin
+
+# Ignore temporary files
+temp/
+tmp/
+*.tmp
+
+# Ignore logs
+logs/
+*.log
+
+# Ignore Jupyter notebook checkpoints
+.ipynb_checkpoints/
+
+# Ignore OS specific files
+.DS_Store
+Thumbs.db
+
+# Ignore IDE specific files
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# Ignore local audio recordings/uploads
+*.mp3
+*.wav
+*.ogg
+*.flac
+
+# Ignore build files
+dist/
+build/
+*.egg-info/
+
+# Hugging Face specific files
+.space
